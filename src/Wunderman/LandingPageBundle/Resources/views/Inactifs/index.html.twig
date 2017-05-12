@@ -1,0 +1,38 @@
+{% extends 'WundermanLandingPageBundle::Inactifs/base.html.twig' %}
+
+{% block content %}
+    <div class="row">
+
+        <div class="col-lg-12 bloc_global">
+            <div class="block_text">
+
+                <p style="font-weight: bold">
+                    TACK TACK* <%= ctx.Personne.infosperso.@PER_PRE %> !
+                </p>
+
+                <p>
+                   Cela nous fait plaisir que vous ayez pris le temps de nous répondre ! Nous avons bien enregistré la raison pour laquelle vous n’utilisez plus votre carte et <span style="font-weight: bold">PROMIS nous allons tout faire pour vous donner envie de la réutiliser !</span>
+                </p>
+                <p>
+                    À Bientôt
+                </p>
+
+                <p>
+                    Toute l’équipe IKEA FAMILY
+                </p>
+
+                <p>
+                    *merci
+                </p>
+            </div>
+        </div>
+
+        <div class="col-lg-12 ">
+            <div class="bloc_button">
+                <a href="http://www.ikea.com/fr/fr/" target="_blank" class="button">
+                    Je fais un tour sur IKEA.fr &nbsp;&rtrif;
+                </a>
+            </div>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,38 @@
+<!doctype html>
+<html class="no-js" lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>{%block title%}IKEA FAMILY{%endblock%}</title>
+    <meta name="description" content="{%block metaDescription%}{%endblock%}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {% block style %}
+        <link rel="stylesheet" href="{{ asset('bundles/wundermanlandingpage/css/bootstrap.min.css') }}?v={{ assets_version }}">
+        <link rel="stylesheet" href="{{ asset('bundles/wundermanlandingpage/css/font-awesome.min.css') }}?v={{ assets_version }}">
+        <link rel="stylesheet" href="{{ asset('bundles/wundermanlandingpage/css/styles.css') }}?v={{ assets_version }}">
+        <link rel="stylesheet" href="{{ asset('bundles/wundermanlandingpage/css/media.css') }}?v={{ assets_version }}">
+    {%endblock%}
+    {% block jsHeader %}
+        <script src="{{ asset('bundles/wundermanlandingpage/js/jquery-3.1.0.min.js') }}?v={{ assets_version }}"></script>
+        <script src="{{ asset('bundles/wundermanlandingpage/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js') }}?v={{ assets_version }}"></script>
+    {%endblock%}
+</head>
+<body>
+<div class="container">
+   <div class="row">
+       <div class="col-md-12">
+           <a href="http://www.ikea.com/ms/fr_FR/IKEA_FAMILY/IKEA_FAMILY_index.html" target="_blank"> <img src="{{ asset("bundles/wundermanlandingpage/images/logo.png")}}" alt="logo" class="logo"></a>
+       </div>
+   </div>
+
+
+{% block body %}{% endblock body %}
+</div>
+{% block jsFooter %}
+    <script src="{{ asset('bundles/wundermanlandingpage/js/bootstrap.js') }}?v={{ assets_version }}"></script>
+{%endblock%}
+
+</body>
+</html>

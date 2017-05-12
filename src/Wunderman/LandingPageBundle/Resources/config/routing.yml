@@ -1,0 +1,6 @@
+wunderman_landing_page_inactifs:
+    path:     /inactifs
+    defaults: { _controller: WundermanLandingPageBundle:Inactifs:index }
+wunderman_landing_page_abonnement:
+    path:     /abonnement
+    defaults: { _controller: WundermanLandingPageBundle:Abonnement:index }

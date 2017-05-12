@@ -1,0 +1,13 @@
+# This file is auto-generated during the composer install
+parameters:
+    database_host: localhost
+    database_port: null
+    database_name: ikea_activation
+    database_user: ikea_activation
+    database_password: cmWDADPAGy7LudfK
+    mailer_transport: gmail
+    mailer_host: smtp.gmail.com
+    mailer_user: developmentikea@gmail.com
+    mailer_password: 123456789ABC
+    secret: ThisTokenIsNotSoSecretChangeIt
+    maintenance: true #turn it to true to enable maintenance

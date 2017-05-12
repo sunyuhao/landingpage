@@ -1,0 +1,44 @@
+@media screen and (min-width: 641px)  and (max-width: 995px)  {
+
+    .bloc_global{
+        padding: 30px;
+        background-repeat: repeat;
+        background-size: 100%;
+    }
+    .block_text{
+        padding: 40px 90px;
+    }
+
+    .bloc_global_abonnement{
+        padding: 30px;
+        background-repeat: repeat;
+        background-size: 100%;
+    }
+    .block_text_abonnement{
+        padding: 40px 90px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .bloc_global{
+        padding: 10px;
+        background-repeat: repeat;
+        background-size: 100%;
+    }
+    .block_text{
+        padding: 20px 10px;
+    }
+    .bloc_global_abonnement{
+        padding: 10px;
+        background-repeat: repeat;
+        background-size: 100%;
+    }
+    .block_text_abonnement{
+        padding: 20px 10px;
+    }
+}
+@media screen and (max-width: 400px) {
+    img.logo{
+        width: 100%;
+    }
+}

@@ -1,0 +1,12 @@
+wunderman_landing_page:
+    resource: "@WundermanLandingPageBundle/Resources/config/routing.yml"
+    prefix:   /
+
+wunderman_arvato:
+    resource: "@WundermanArvatoBundle/Resources/config/routing.yml"
+    prefix:   /
+
+#
+#app:
+#    resource: "@AppBundle/Controller/"
+#    type:     annotation

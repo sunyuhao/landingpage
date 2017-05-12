@@ -1,0 +1,12 @@
+# This file is auto-generated during the composer install
+parameters:
+    database_host: digital-db1.cov6ksm2vghh.eu-west-1.rds.amazonaws.com
+    database_port: null
+    database_name: ikeafamily
+    database_user: ikeafamily
+    database_password: lK17j8378471EPA
+    mailer_transport: gmail
+    mailer_host: smtp.gmail.com
+    mailer_user: developmentikea@gmail.com
+    mailer_password: 123456789ABC
+    secret: ThisTokenIsNotSoSecretChangeIt

@@ -1,0 +1,8 @@
+services:
+    wunderman_arvato.provider:
+        class: Wunderman\ArvatoBundle\Service\ArvatoProvider
+        arguments: ["@service_container"]
+
+#    wunderman_arvato.example:
+#        class: Wunderman\ArvatoBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]

@@ -1,0 +1,72 @@
+body{
+    color: #000;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.container{
+    margin-top: 70px;
+    max-width:1024px;
+    padding: 0 20px;
+}
+
+h1{
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: 600;
+}
+
+.bloc_global{
+    margin: 85px 0;
+    padding:45px 90px;
+    background-image: url('/bundles/wundermanlandingpage/images/inactifs.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.bloc_global_abonnement{
+    margin: 85px 0;
+    padding:45px 90px;
+    background-image: url('/bundles/wundermanlandingpage/images/abonnement.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.block_text{
+    padding:60px 110px 40px 110px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #f76b16;
+}
+
+.block_text_abonnement{
+    padding:60px 205px 40px 205px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #f76b16;
+}
+
+.bloc_button{
+    margin-top: 50px;
+    text-align: center;
+}
+a.button{
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #ffffff;
+    padding:8px;
+    border: 2px solid #f76b16;
+    color: #f76b16;
+    text-decoration: none;
+}
+
+a.button:hover{
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #f76b16;
+    padding:8px;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
